@@ -14,7 +14,6 @@
 
 // let bob = "23";
 
-
 // let result = parseInt(bob)
 // console.log(age)
 // console.log('result -> ', result);
@@ -22,14 +21,36 @@
 // let valid : boolean = false
 // console.log(valid)
 
-let numList : Array<number>;
+// let numList : Array<number>;
 
-numList = [1, 2, 3, 4, 5]
+// numList = [1, 2, 3, 4, 5]
 
-let result = numList.filter((num) => num > 2)
+// let result = numList.filter((num) => num > 2)
 
-let sumAll = numList.reduce((acc, sum) => acc + sum)
+// let sumAll = numList.reduce((acc, sum) => acc + sum)
 
-console.log(result)
+// console.log(result)
 
-console.log('Soma de todos os valores ', sumAll)
+// console.log('Soma de todos os valores ', sumAll)
+
+// const enum Color {
+//   Red,
+//   Green,
+//   Blue,
+// }
+
+// let c: Color = Color.Blue
+
+// console.log(c)
+
+let swapNumbs: [number, number];
+
+function swapNumbers(num1:number, num2:number) : [number, number] {
+    return [num2, num1];
+}
+
+swapNumbs = swapNumbers(10, 30);
+
+swapNumbs[0];
+swapNumbs[1];
+console.log(swapNumbs[1])
