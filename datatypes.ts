@@ -1,47 +1,45 @@
-// // let fname = 'test';
-// // fname = 'lucas';
+// let fname = 'test';
+// fname = 'lucas';
 
-// // console.log(fname);
+// console.log(fname);
 
-// // let lname : string;
-// // lname = "Lucas"
-// // const newName = lname.toUpperCase();
+// let lname : string;
+// lname = "Lucas"
+// const newName = lname.toUpperCase();
 
-// // console.log(newName)
+// console.log(newName)
 
-// let age: number;
-// age = 32
+let age: number;
+age = 32
 
-// let bob = "23";
+let bob = "23";
 
-// let result = parseInt(bob)
-// console.log(age)
-// console.log('result -> ', result);
+let result = parseInt(bob)
+console.log(age)
+console.log('result -> ', result);
 
-// let valid : boolean = false
-// console.log(valid)
+let valid : boolean = false
+console.log(valid)
 
-// let numList : Array<number>;
+let numList : Array<number>;
 
-// numList = [1, 2, 3, 4, 5]
+numList = [1, 2, 3, 4, 5]
 
-// let result = numList.filter((num) => num > 2)
+let sumAll = numList.reduce((acc, sum) => acc + sum)
 
-// let sumAll = numList.reduce((acc, sum) => acc + sum)
+console.log(result)
 
-// console.log(result)
+console.log('Soma de todos os valores ', sumAll)
 
-// console.log('Soma de todos os valores ', sumAll)
+const enum Color {
+  Red,
+  Green,
+  Blue,
+}
 
-// const enum Color {
-//   Red,
-//   Green,
-//   Blue,
-// }
+let c: Color = Color.Blue
 
-// let c: Color = Color.Blue
-
-// console.log(c)
+console.log(c)
 
 let swapNumbs: [number, number];
 
@@ -54,3 +52,8 @@ swapNumbs = swapNumbers(10, 30);
 swapNumbs[0];
 swapNumbs[1];
 console.log(swapNumbs[1])
+
+let department: string = 'lucas'
+
+console.log(department)
+
