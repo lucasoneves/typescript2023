@@ -10,26 +10,26 @@
 // console.log(newName)
 
 let age: number;
-age = 32
+age = 32;
 
 let bob = "23";
 
-let result = parseInt(bob)
-console.log(age)
-console.log('result -> ', result);
+let result = parseInt(bob);
+console.log(age);
+console.log("result -> ", result);
 
-let valid : boolean = false
-console.log(valid)
+let valid: boolean = false;
+console.log(valid);
 
-let numList : Array<number>;
+let numList: Array<number>;
 
-numList = [1, 2, 3, 4, 5]
+numList = [1, 2, 3, 4, 5];
 
-let sumAll = numList.reduce((acc, sum) => acc + sum)
+let sumAll = numList.reduce((acc, sum) => acc + sum);
 
-console.log(result)
+console.log(result);
 
-console.log('Soma de todos os valores ', sumAll)
+console.log("Soma de todos os valores ", sumAll);
 
 const enum Color {
   Red,
@@ -37,23 +37,22 @@ const enum Color {
   Blue,
 }
 
-let c: Color = Color.Blue
+let c: Color = Color.Blue;
 
-console.log(c)
+console.log(c);
 
 let swapNumbs: [number, number];
 
-function swapNumbers(num1:number, num2:number) : [number, number] {
-    return [num2, num1];
+function swapNumbers(num1: number, num2: number): [number, number] {
+  return [num2, num1];
 }
 
 swapNumbs = swapNumbers(10, 30);
 
 swapNumbs[0];
 swapNumbs[1];
-console.log(swapNumbs[1])
+console.log(swapNumbs[1]);
 
-let department: string = 'lucas'
+let department: string = "lucas";
 
-console.log(department)
-
+console.log(department);
