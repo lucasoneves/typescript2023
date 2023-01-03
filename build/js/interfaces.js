@@ -1,0 +1,2 @@
+"use strict";
+// Creating interfaces
